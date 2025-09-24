@@ -1,5 +1,5 @@
 # Virtual environment directory
-VigilAI/
+venv/
 
 # Specific files to ignore
 .DS_Store
