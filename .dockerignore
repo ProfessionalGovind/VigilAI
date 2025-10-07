@@ -1,0 +1,17 @@
+# --- Docker Ignore List ---
+
+# 1. Ignore the virtual environment (THE MAIN CULPRIT)
+venv/
+VigilAI/  
+
+# 2. Ignore data/ and models/ that have large files
+data/
+models/
+
+# 3. Ignore system files
+**/.DS_Store
+**/Thumbs.db
+
+# 4. Ignore all Git files (already handled by Docker but good practice)
+.git
+.gitignore
